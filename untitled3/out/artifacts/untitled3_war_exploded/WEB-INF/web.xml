@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>Crowflight</servlet-name>
+        <servlet-class>info.javaway.web.servlets.Crowflight</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Crowflight</servlet-name>
+        <url-pattern>Crowflight.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ListCityClass</servlet-name>
+        <servlet-class>info.javaway.web.servlets.ListCityClass</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ListCityClass</servlet-name>
+        <url-pattern>ListCity.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>MatrixClass</servlet-name>
+        <servlet-class>info.javaway.web.servlets.MatrixClass</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MatrixClass</servlet-name>
+        <url-pattern>Matrix.do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CalculateAllClass</servlet-name>
+        <servlet-class>info.javaway.web.servlets.CalculateAllClass</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CalculateAllClass</servlet-name>
+        <url-pattern>All.do</url-pattern>
+    </servlet-mapping>
+</web-app>
